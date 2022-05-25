@@ -45,7 +45,7 @@ const main = async () => {
 
   await queueSingletonDriver.consume();
 
-  const response = queueSingletonDriver.dequeue();
+  const response = await queueSingletonDriver.dequeue();
   console.log(response);
 };
 

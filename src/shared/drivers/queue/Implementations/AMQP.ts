@@ -1,7 +1,7 @@
-import AppError from "@shared/error/AppError";
+import AppError from "../../../../shared/error/AppError";
 
-import queuedMessages from "@shared/utils/queuedMessages";
-import deferred from "@shared/utils/deferred";
+import queuedMessages from "../../../../shared/utils/queuedMessages";
+import deferred from "../../../../shared/utils/deferred";
 
 import amqplib from "amqplib";
 
@@ -14,8 +14,8 @@ import {
   Message,
 } from "../interfaces/types";
 
-import validatePromise from "@shared/utils/validatePromise";
-import bufferMessage from "@shared/utils/bufferMessage";
+import validatePromise from "../../../../shared/utils/validatePromise";
+import bufferMessage from "../../../../shared/utils/bufferMessage";
 
 type ChannelMessage = Channel<Message>;
 type DriverModelInterface = Context<ChannelMessage, QueuedMessages>;

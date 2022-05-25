@@ -1,6 +1,6 @@
 import { Channel } from "amqplib";
 
-import message from "@config/message";
+import message from "../../../config/message";
 
 import {
   QueueDriverModel,
