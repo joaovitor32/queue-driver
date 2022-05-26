@@ -27,7 +27,7 @@ npm i queue-driver
 
 ## Usage
 
-```
+```ts
 const queueSingletonDriver = QueueSingletonDriver.getInstance({
   host: "host",
   vhost: "vhost",
