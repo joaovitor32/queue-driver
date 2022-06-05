@@ -1,6 +1,6 @@
 # Queue-driver - Rabbit MQ e AMQPLIB
 
-Code that implements amqplib using Rabbit MQ
+Code that implements amqplib with Rabbit MQ
 
 ## To use
 
